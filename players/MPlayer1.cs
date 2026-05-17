@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+namespace DurakBenchmark;
 
-namespace CardFool
+internal class MPlayer1 : IPlayer
 {
-    internal class MPlayer1
     {
         private string name = "Sasha";
         private List<SCard> hand = new List<SCard>();       // карты на руке
